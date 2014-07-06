@@ -1,90 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Caroom</title>
     <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1">
-    <style>
-body{
-    margin:0;
-    padding:10px;
-    width:300px;
-}
-#room-icon{
-    border-radius:50%;
-    width:200px;
-    height:200px;
-    margin:0 auto;
-    border:3px solid #ddd;
-    overflow:hidden;
-    display:table;
-}
-#room-icon div{
-    display:table-cell;
-    vertical-align:middle;
-}
-#room-icon img{
-    width:200px;
-}
-.left-side{
-    float:left;
-    text-align:left;
-}
-.right-side{
-    float:right;
-    text-align:right;
-}
-.name{
-    display:inline-block;
-}
-#room-name{
-    text-align:center;
-}
-.clearfix:after {
-    content:"";
-    display:block;
-    clear:both;
-}
-.word{
-    color:#888;
-}
-.menu{
-    height:20px;
-    position:absolute;
-    bottom:20px;
-    width:300px;
-}
-.menu .button{
-    display:inline-block;
-    border:1px solid #999;
-    padding:0px 12px;
-}
-    </style>
+    <link rel="stylesheet" href="style.css"><!--CSS-->
 </head>
 <body>
-<div id="room-name">Room</div>
+<div id="room-name">Room</div><!--部屋の名前-->
     <div id="room-icon">
         <div>
-            <img src="room.png">
+            <img src="room.png"><!--部屋のアイコン-->
         </div>
     </div>
     <div class="clearfix">
-        <div class="name left-side">
+        <div class="name left-side"><!--左の人の名前-->
             <div class="first-name">Taro</div>
             <div class="family-name">Niigata</div>
         </div>
-        <div class="name right-side">
+        <div class="name right-side"><!--右の人の名前-->
             <div class="first-name">Hanako</div>
             <div class="family-name">Echigo</div>
         </div>
     </div>
-    <div class="clearfix">
+    <div class="clearfix"><!--一言-->
         <div class="word left-side">I love you</div>
         <div class="word right-side"> I'm loved by you.</div>
     </div>
-    <div class="menu clearfix">
+    <div class="menu clearfix"><!--メニュ-->
         <div class="button left-side" id="menu-button">◯</div>
-        <div class="button right-side" id="bio-button">Biography</div>
+        <a class="button right-side" id="bio-button" href="biography.html">Biography</a>
     </div>
 </body>
 </html>

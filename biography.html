@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script>
+window.addEventListener('load',function(){
+    //windowオブジェクトにイベントリスナーを登録
+    document.getElementsByTagName('body')[0].style.display='block';
+    setTimeout(function(){
+        window.scrollTo(0,document.body.clientHeight);//windowを最下部までスクロールする
+    },0);
+});
+    </script>
+    <style>
+body{
+    display:none;
+}
+img{max-width: 100%;}
+ul{
+    padding:0;
+}
+li{
+    border-bottom:3px solid #ddd;
+    padding:9px 0;
+}
+    </style>
+</head>
+<body>
+<ul>
+    <li>7/6<img src="omohide.jpg"></li>
+<li>遊園地<img src="omohide2.jpg"></li>
+    <li>7/7<img src="omohide.jpg"></li>
+<li>遊園地<img src="omohide2.jpg"></li>
+    <li>7/8<img src="omohide.jpg"></li>
+<li>遊園地<img src="omohide2.jpg"></li>
+    <li>7/9<img src="omohide.jpg"></li>
+<li>遊園地<img src="omohide2.jpg"></li>
+    <li>7/10<img src="omohide.jpg"></li>
+<li>遊園地<img src="omohide2.jpg"></li>
+    <li>7/11<img src="omohide.jpg"></li>
+<li>遊園地<img src="omohide2.jpg"></li>
+</ul>
+<div class="menu clearfix">
+    <div class="button left-side" id="menu-button">◯</div>
+    <a class="button right-side" id="room-button" href="index.html">Room</a>
+</div>
+</body>
+</html>
