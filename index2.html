@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Caroom</title>
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="style.css"><!--CSS-->
+    <style>
+.name{
+    width:100%;
+}
+.first-name,.family-name{
+    font-size:20px;
+}
+.text-align-left{
+    text-align:left;
+}
+.text-align-right{
+    text-align:right;
+}
+    </style>
+</head>
+<body>
+<div id="room-name">Room</div><!--部屋の名前-->
+    <div id="room-icon">
+        <div>
+            <img src="room.png"><!--部屋のアイコン-->
+        </div>
+    </div>
+        <div class="name text-align-left"><!--左の人の名前-->
+            <div class="first-name">Taro Niigata</div>
+            <div class="word">I love you</div>
+        </div>
+        <div class="name text-align-right"><!--右の人の名前-->
+            <div class="first-name">Hanako Echigo</div>
+            <div class="word"> I'm loved by you.</div>
+        </div>
+    <div class="menu clearfix"><!--メニュ-->
+        <div class="button left-side" id="menu-button">◯</div>
+        <a class="button right-side" id="bio-button" href="biography.html">Biography</a>
+    </div>
+</body>
+</html>
