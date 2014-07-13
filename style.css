@@ -3,15 +3,15 @@ html{
     position:relative;
 }
 body{
-    margin:0;
+    margin:15px;
     width:320px;
     height: 100%;
     padding-bottom:40px;
 }
 #room-icon{
     border-radius:50%;
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     margin:0 auto;
     border:3px solid #ddd;
     overflow:hidden;
@@ -22,21 +22,25 @@ body{
     vertical-align:middle;
 }
 #room-icon img{
-    width:200px;
+    width:10px;
 }
 .left-side{
-    float:left;
     text-align:left;
+    float:left;
 }
 .right-side{
-    float:right;
     text-align:right;
+    float:right;
 }
 .name{
     display:inline-block;
+     font-size:50px
 }
 #room-name{
+    margin-top:7px;
+    margin-bottom:5px;
     text-align:center;
+    font-size:40px
 }
 .clearfix:after {
     content:"";
@@ -45,6 +49,7 @@ body{
 }
 .word{
     color:#888;
+    font-size:15px;
 }
 .menu{
     height:26px;
